@@ -14,5 +14,5 @@ public interface EmployeeDAO {
     
     long getNumOfEmployees() throws DAOException;
     
-    public int addEmployee(Employee employee) throws DAOException;
+    public Employee addEmployee(Employee employee) throws DAOException;
 }

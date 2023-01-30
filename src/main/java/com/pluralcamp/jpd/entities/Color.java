@@ -2,7 +2,6 @@ package com.pluralcamp.jpd.entities;
 
 import java.util.Random;
 
-
 public class Color  {
 
     //<editor-fold defaultstate="collapsed" desc="Estado: Atributos/Campos">
@@ -43,9 +42,9 @@ public class Color  {
     }
 
     public void setId(long id) {
-        if (this.getId() != -1) {
-            throw new UnsupportedOperationException("No se puede cambiar el id de un objeto ya asignado");
-        }
+//        if (this.getId() != -1) {
+//            throw new UnsupportedOperationException("No se puede cambiar el id de un objeto ya asignado");
+//        }
         if (id <= 0) {    
             throw new IllegalArgumentException("El id a asignar a una entidad debe ser un valor positivo");
         }
